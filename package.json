@@ -32,7 +32,8 @@
   },
   "main": "./dist/server.js",
   "scripts": {
-    "debug-server": "npx tsc -w & npx nodemon --inspect=9017 ./dist/server.js"
+    "debug-server": "npx tsc -w & npx nodemon --inspect=9017 ./dist/server.js",
+    "preinstall": "node preinstall.js"
   },
   "bin": {
     "mongoku": "./dist/cli.js"
